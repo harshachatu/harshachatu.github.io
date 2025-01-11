@@ -15,7 +15,7 @@ export default function ProfileCard() {
       
       <div className="w-48 h-48 rounded-[24px] overflow-hidden mb-6">
         <img 
-          src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=256"
+          src="/images/pic.png"
           alt="Profile"
           className="w-full h-full object-cover"
         />
@@ -32,8 +32,8 @@ export default function ProfileCard() {
       </button>
 
       <div className="mt-8 text-xs text-gray-600">
-  © {new Date().getFullYear()} Harsha. All Rights Reserved
-</div>
+        © {new Date().getFullYear()} Harsha. All Rights Reserved
+      </div>
 
     </div>
   );
