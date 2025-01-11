@@ -13,9 +13,10 @@ export default function IntroSection() {
       
       <ParallaxSection speed={0.5}>
         <h1 className="text-[64px] leading-[1.1] font-light mb-6">
-          Say Hi from <span className="text-[#2EE59D]">Harsha</span>,<br />
-          Senior Web Developer<br />
-          & Full Stack Expert
+          Hi, I'm <span className="text-[#2EE59D]">Harsha</span>,<br />
+          Full Stack Developer<br />
+          Cybersecurity Expert<br />
+          Digital Media Manager
         </h1>
       </ParallaxSection>
       

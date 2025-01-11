@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navigation from './components/Navigation';
 import ProfileCard from './components/ProfileCard';
 import IntroSection from './components/IntroSection';
@@ -16,6 +16,22 @@ import './styles/animations.css';
 import './styles/typography.css';
 
 export default function App() {
+  useEffect(() => {
+    const script1 = document.createElement('script');
+    script1.async = true;
+    script1.src = 'https://www.googletagmanager.com/gtag/js?id=G-Z2CPFGC8FE';
+    document.head.appendChild(script1);
+
+    const script2 = document.createElement('script');
+    script2.innerHTML = `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-Z2CPFGC8FE');
+    `;
+    document.head.appendChild(script2);
+  }, []);
+
   return (
     <div className="min-h-screen bg-black text-white">
       <FullscreenButton />

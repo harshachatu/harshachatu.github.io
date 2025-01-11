@@ -9,8 +9,9 @@ export default function ProfileCard() {
       <Logo />
       
       <div className="text-sm text-gray-400 mt-2 mb-6">
-        Senior Full Stack Developer<br />
-        Cloud Solutions Expert
+      Full Stack Developer<br />
+      Cybersecurity Expert<br />
+      Digital Media Manager
       </div>
       
       <div className="w-48 h-48 rounded-[24px] overflow-hidden mb-6">
