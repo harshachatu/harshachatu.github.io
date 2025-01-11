@@ -3,29 +3,29 @@ import ParallaxSection from '../ParallaxSection';
 
 const projects = [
   {
-    title: "EvolveShop",
+    title: "Evolve Shop",
     category:
       "EvolveShop is a cutting-edge e-commerce platform featuring a unique front-end and a robust custom-built backend. It supports over 10 payment options, delivering seamless shopping experiences. Since deployment, revenue has increased by 200%, showcasing its business impact. The platform is optimized for speed and SEO, with a CDN, modern image formats, minified code, and mobile responsiveness. Keyword-rich content, structured data, and fast load times ensure high search engine visibility and exceptional user satisfaction.",
-    image: "https://images.unsplash.com/photo-1523726491678-bf852e717f6a?auto=format&fit=crop&q=80&w=800",
-    link: "https://your-evolveshop-link.com",
+    image: "/images/evolve.png",
+    link: "https://evolveshop.lk",
   },
   {
-    title: "Mobile Banking App",
-    category: "Frontend Development",
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=800",
-    link: "https://your-mobilebanking-link.com",
+    title: "Custom AI Chatbot",
+    category: "A Python and Streamlit-powered AI chatbot platform designed to enhance engagement, streamline operations, and boost conversions. Featuring tailored development, seamless integration, and personalized conversational flows, it automates tasks, reduces response times, and delivers efficient, user-friendly experiences. Built with Streamlit for rapid prototyping and scalability, it adapts effortlessly to diverse business needs while offering a visually interactive interface for real-time monitoring and updates.",
+    image: "/images/chatbot.png",
+    link: "https://uvatourism.azurewebsites.net/",
   },
   {
-    title: "Analytics Dashboard",
-    category: "Full Stack Development",
-    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&q=80&w=800",
-    link: "https://your-analytics-dashboard-link.com",
+    title: "AR/VR Solutions",
+    category: "A comprehensive platform for Augmented, Virtual, and Mixed Reality development, offering immersive overlays, gamified environments, and lifelike virtual experiences. It seamlessly blends real and digital elements, supported by custom roadmaps, audience insights, multi-platform UI/UX design, and 3D modeling. With robust integration of devices, APIs, and advanced technologies like edge computing, it delivers innovative and practical AR/VR experiences across all platforms.",
+    image: "/images/vr.png",
+    link: "https://uvametatour.azurewebsites.net/",
   },
   {
-    title: "Real-time Chat App",
-    category: "Backend Development",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
-    link: "https://your-realtime-chat-app-link.com",
+    title: "CRM with Tailored Modules",
+    category: "A powerful PHP-based CRM platform designed for businesses seeking flexibility and efficiency. With fully customizable modules, it adapts to unique workflows, enabling seamless customer data management, lead tracking, and communication monitoring. Tailored to your specific needs, this CRM allows you to build and integrate custom modules for specialized functions like inventory management, project tracking, billing, or advanced analytics. Its modular architecture ensures easy scalability and adaptability as your business grows.",
+    image: "/images/crm.png",
+    link: "#",
   },
 ];
 
@@ -45,25 +45,21 @@ export default function ProjectsSection() {
           <ParallaxSection key={index} speed={0.4 + index * 0.1}>
             <div className="bg-[#1A1A1A] rounded-[32px] overflow-hidden group cursor-pointer">
               <div className="relative h-48">
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block w-full h-full"
-                >
+                
                   <img
                     src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                   />
-                </a>
-                <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <span className="text-[#2EE59D]">View Project</span>
-                </div>
+                
+                
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-medium mb-2">{project.title}</h3>
                 <p className="text-gray-400 text-justify">{project.category}</p>
+
+                <a href={project.link} target="_blank" rel="noopener noreferrer" className="block w-full h-full" ><span className="text-[#2EE59D] pt-5">View Project</span></a>
+
               </div>
             </div>
           </ParallaxSection>

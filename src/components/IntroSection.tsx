@@ -15,17 +15,12 @@ export default function IntroSection() {
         <h1 className="text-[64px] leading-[1.1] font-light mb-6">
           Hi, I'm <span className="text-[#2EE59D]">Harsha</span>,<br />
           Full Stack Developer<br />
-          Cybersecurity Expert<br />
+          Cyber Security Expert<br />
           Digital Media Manager
         </h1>
       </ParallaxSection>
       
-      <ParallaxSection speed={0.7}>
-        <p className="text-gray-400 text-lg">
-          Over 14 years of expertise in creating modern, scalable web and mobile applications.<br />
-          Passionate about delivering innovative solutions!
-        </p>
-      </ParallaxSection>
+      
     </div>
   );
 }

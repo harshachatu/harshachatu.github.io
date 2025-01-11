@@ -43,6 +43,28 @@ export default function AboutSection() {
             </ul>
           </div>
         </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-5">
+          <div className="bg-[#1A1A1A] rounded-[32px] p-8">
+            <h3 className="text-[#2EE59D] text-lg font-medium mb-4">Cyber Security</h3>
+            <ul className="space-y-2 text-gray-400">
+              <li>Secure System Design & Architecture</li>
+              <li>Data Encryption & Secure Authentication</li>
+              <li>Network Security & Threat Monitoring</li>
+              <li>Penetration Testing & Vulnerability Assessment</li>
+            </ul>
+          </div>
+          
+          <div className="bg-[#1A1A1A] rounded-[32px] p-8">
+            <h3 className="text-[#2EE59D] text-lg font-medium mb-4">Digital Media</h3>
+            <ul className="space-y-2 text-gray-400">
+              <li>Social Media Strategy & Management</li>
+              <li>Content Creation & Optimization</li>
+              <li>Analytics & Performance Tracking</li>
+              <li>Brand Development & Online Engagement</li>
+            </ul>
+          </div>
+        </div>
       </ParallaxSection>
     </div>
   );

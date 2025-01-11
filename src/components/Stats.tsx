@@ -24,7 +24,7 @@ export default function Stats() {
 function StatCard({ number, label }: { number: string; label: string }) {
   return (
     <div className="bg-[#1A1A1A] rounded-[32px] p-12">
-      <div className="text-[#2EE59D] text-[72px] font-light leading-none mb-4">{number}</div>
+      <div className="text-[#2EE59D] text-[50px] font-light leading-none mb-4">{number}</div>
       <div className="text-gray-500 text-sm">{label}</div>
     </div>
   );

@@ -8,12 +8,12 @@ export default function ExperienceSection() {
   return (
     <div className="space-y-8">
       <ParallaxSection speed={0.3}>
-        <SectionHeader 
-          badge="EXPERIENCE"
-          title="Work"
-          highlightedTitle="Experience"
-        />
-      </ParallaxSection>
+              <div className="bg-[#1A1A1A] rounded-[32px] p-12">
+                <h2 className="text-4xl font-light mb-6">
+                  Work <span className="text-[#2EE59D]">Experience</span>
+                </h2>
+              </div>
+            </ParallaxSection>
 
       <div className="space-y-6">
         {experienceData.map((timeframe, index) => (

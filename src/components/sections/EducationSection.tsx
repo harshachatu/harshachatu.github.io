@@ -3,7 +3,7 @@ import ParallaxSection from '../ParallaxSection';
 
 const education = [
   {
-    period: "2023 - Present",
+    period: "2024 - Present",
     degree: "MSc in Information Security",
     institution: "Luleå University of Technology",
     description: "Pursuing advanced studies in secure system design and cybersecurity"

@@ -27,10 +27,17 @@ export default function ProfileCard() {
 
       <SocialLinks />
 
-      <button className="w-full bg-[#2EE59D] hover:bg-[#25CC89] text-black font-medium py-3 px-6 rounded-full transition-colors flex items-center justify-center gap-2 text-sm">
-        <Mail className="w-4 h-4" />
-        HIRE ME!
-      </button>
+      <a
+        href="https://api.whatsapp.com/send?phone=46735315336"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="w-full bg-[#2EE59D] hover:bg-[#25CC89] text-black font-medium py-3 px-6 rounded-full transition-colors flex items-center justify-center gap-2 text-sm">
+          <Mail className="w-4 h-4" />
+          WHATSAPP ME!
+        </button>
+      </a>
+
 
       <div className="mt-8 text-xs text-gray-600">
         © {new Date().getFullYear()} Harsha. All Rights Reserved
