@@ -94,7 +94,7 @@ export default function AwardsSection() {
       <div className="space-y-6">
         {awards.map((award, index) => (
           <ParallaxSection key={index} speed={0.4 + (index * 0.1)}>
-            <div className="bg-[#1A1A1A] rounded-[32px] p-8 group hover:bg-[#1E1E1E] transition-colors pt-5">
+            <div className="bg-[#1A1A1A] rounded-[32px] p-8 group hover:bg-[#1E1E1E] transition-colors mt-8 mb-8">
               <div className="flex items-start gap-6">
                 <div className="p-4 bg-[#1E1E1E] group-hover:bg-[#2A2A2A] rounded-full transition-colors">
                   <Trophy className="w-6 h-6 text-[#2EE59D]" />
