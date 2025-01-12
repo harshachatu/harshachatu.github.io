@@ -17,7 +17,12 @@ const skills = [
   { name: 'React', image: '/images/docker.png' },
   { name: 'WordPress', image: '/images/metaverse.png' },
   { name: 'Laravel/PHP', image: '/images/codeignitor.png' },
-  { name: 'Laravel/PHP', image: '/images/laravel.png' }
+  { name: 'Laravel/PHP', image: '/images/laravel.png' },
+  { name: 'Laravel/PHP', image: '/images/analytics.png' },
+  { name: 'Laravel/PHP', image: '/images/bootstrap.png' },
+  { name: 'Laravel/PHP', image: '/images/cpanel.png' },
+  { name: 'Laravel/PHP', image: '/images/wowza.png' }
+
 ];
 
 export default function SkillsSection() {
